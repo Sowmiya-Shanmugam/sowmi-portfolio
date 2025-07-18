@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: white;
+
+}
+.logo img{
+ width: 30px;
+ height: 30px;
+}
+
+.logo-text{
+   font-size: 24px;
+   font-weight: bold;
+   white-space: nowrap;
+}
+.red{
+    color: red;
+}
+nav{
+    word-spacing: 80px;
+}
+nav a{
+  
+    text-decoration: none;
+  
+   font-weight: bold;
+}
+nav a:hover{
+    
+    text-decoration: red;
+    cursor: pointer;
+   
+}
+div h1{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+div h2{
+     padding: 30;
+          text-align: center;
+          font-weight: bolder;
+}
+h2 span{
+    color: rgb(10, 9, 9);
+    text-decoration: underline red;
+}
+.about-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.about-boxes .one,
+.about-boxes .two,
+.about-boxes .three {
+  background-color:rgb(5, 5, 51);
+  color: white;
+  flex: 1 1 250px;
+  max-width: 300px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-boxes .one:hover,
+.about-boxes .two:hover,
+.about-boxes .three:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.about-boxes h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.about-boxes p {
+  font-size: 14px;
+  line-height: 1.5;
+}
