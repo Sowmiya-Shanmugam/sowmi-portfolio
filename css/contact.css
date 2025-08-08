@@ -67,3 +67,13 @@ button{
    margin: 0 auto;
     display: block;
 }
+button:hover{
+    background-color: darkorange;
+    color: black;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+ 
+}
+input,textarea{
+    padding: 10px;
+}

@@ -80,4 +80,6 @@ button{
     width: 200;
     height: 50;
    font-size: 15px;
+   border: none;
+   border-radius: 20px;
 }
